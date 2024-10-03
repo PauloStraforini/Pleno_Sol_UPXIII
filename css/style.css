@@ -1,11 +1,12 @@
 header {
-    background-color: #006A4E;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
+    background-color: #006A4E; /* Cor de fundo verde escuro */
+    color: #fff; /* Cor do texto branca */
+    padding: 20px 0; /* Aumento do preenchimento para melhor espaçamento */
+    text-align: center; /* Alinhamento do texto centralizado */
+    font-size: 2em; /* Aumento do tamanho da fonte para melhor legibilidade */
+    font-weight: bold; /* Texto em negrito */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 2px; /* Aumento do espaçamento entre letras */
+    margin-bottom: 30px; /* Aumento da margem para melhor separação */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adicionada sombra sutil para profundidade */
 }

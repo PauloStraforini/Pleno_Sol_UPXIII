@@ -27,3 +27,11 @@ model Post {
   authorId  String
 }
 
+model custumer {
+  id    String @id @default(cuid())
+  name  String
+  email String
+  phone String
+}
+
+

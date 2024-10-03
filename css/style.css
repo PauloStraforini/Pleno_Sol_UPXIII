@@ -3,10 +3,44 @@ header {
     color: #fff; /* Cor do texto branca */
     padding: 20px 0; /* Aumento do preenchimento para melhor espaçamento */
     text-align: center; /* Alinhamento do texto centralizado */
-    font-size: 2em; /* Aumento do tamanho da fonte para melhor legibilidade */
+    font-size: 1.2em; /* Aumento do tamanho da fonte para melhor legibilidade */
     font-weight: bold; /* Texto em negrito */
     text-transform: uppercase; /* Texto em maiúsculas */
     letter-spacing: 2px; /* Aumento do espaçamento entre letras */
-    margin-bottom: 30px; /* Aumento da margem para melhor separação */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adicionada sombra sutil para profundidade */
+    margin-bottom: 40px; /* Aumento da margem para melhor separação */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adicionada sombra mais pronunciada para profundidade */
+}
+
+.container {
+    width: 85%; /* Largura do container ajustada para 85% */
+    max-width: 1200px; /* Largura máxima do container */
+    margin: 0 auto; /* Centralização do container */
+    padding: 0 15px; /* Adicionada padding para melhor espaçamento interno */
+}
+
+footer{
+    background-color: #006A4E; /* Cor de fundo verde escuro */
+    color: #fff; /* Cor do texto branca */
+    padding: 20px 0; /* Aumento do preenchimento para melhor espaçamento */
+    text-align: center; /* Alinhamento do texto centralizado */
+    font-size: 1.2em; /* Aumento do tamanho da fonte para melhor legibilidade */
+    font-weight: bold; /* Texto em negrito */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 2px; /* Aumento do espaçamento entre letras */
+    margin-top: 40px; /* Aumento da margem para melhor separação */
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.15); /* Adicionada sombra mais pronunciada para profundidade */
+}
+
+aside{
+    background-color: #f9f9f9; /* Cor de fundo cinza claro */
+    padding: 20px; /* Aumento do preenchimento para melhor espaçamento */
+    margin-bottom: 20px; /* Aumento da margem para melhor separação */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adicionada sombra mais pronunciada para profundidade */
+}
+
+.noticias{
+    background-color: #f9f9f9; /* Cor de fundo cinza claro */
+    padding: 20px; /* Aumento do preenchimento para melhor espaçamento */
+    margin-bottom: 20px; /* Aumento da margem para melhor separação */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Adicionada sombra mais pronunciada para profundidade */
 }

@@ -21,7 +21,7 @@ header {
 footer{
     background-color: #006A4E; /* Cor de fundo verde escuro */
     color: #fff; /* Cor do texto branca */
-    padding: 20px 0; /* Aumento do preenchimento para melhor espaçamento */
+    padding: 16px 0; /* Aumento do preenchimento para melhor espaçamento */
     text-align: center; /* Alinhamento do texto centralizado */
     font-size: 1.2em; /* Aumento do tamanho da fonte para melhor legibilidade */
     font-weight: bold; /* Texto em negrito */

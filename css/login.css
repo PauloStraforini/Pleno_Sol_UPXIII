@@ -12,12 +12,15 @@
 
 body {
     font-family: "Bebas Neue", sans-serif;
-    background-color: #1d2e3d;
+    background-image: url(../css/img/jason-mavrommatis-nyL-rzwP-Mk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     position: relative;
+    
 }
 
 .container h1 {
@@ -31,7 +34,9 @@ form {
     width: 100%;
     max-width: 400px;
     padding: 30px;
-    background: linear-gradient(135deg, #345e37, #2E8B57, #61bc84, #345e37);
+    /* background: linear-gradient(135deg, #345e37, #2E8B57, #61bc84, #345e37); */
+    background: transparent;
+    backdrop-filter: blur(25px);
     border-radius: 16px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -127,7 +132,7 @@ button {
     margin-top: 10px;
 }
 
-.register {
+.register a{
     color: #ffffff;
     text-decoration: none;
     justify-content: space-around;

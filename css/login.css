@@ -65,9 +65,73 @@ input::placeholder {
     font-size: 20px;
 }
 
-.container .lembrar_senha{
+.container .lembrar_senha {
     display: flex;
     justify-content: space-between;
-    margin: -10px 0 15px;
-    font-size: 15px;
+    align-items: center; /* Centraliza verticalmente os itens */
+    margin: 10px 0 15px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.lembrar_senha label {
+    display: flex;
+    align-items: center;
+    font-size: 20px; 
+}
+
+.lembrar_senha label input {
+    margin-right: 5px; /* Espaçamento entre o checkbox e o texto */
+}
+
+.lembrar_senha a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px; /* Aumenta a separação entre o checkbox e o link "Esqueceu a senha?" */
+    justify-content: space-between;
+    margin: -15px 0px 15px;
+}
+
+.lembrar_senha a:hover {
+    text-decoration: underline;
+}
+
+
+.lembrar_senha label input{
+    margin-right: 5px;
+}
+
+.lembrar_senha a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container .submit {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.register {
+    color: #ffffff;
+    text-decoration: none;
+    justify-content: space-around;
+    margin: 18px 0px 15px;
+    text-align: center;
+    font-size: 18px;
 }

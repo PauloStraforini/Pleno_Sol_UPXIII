@@ -8,7 +8,7 @@ const users: User[] = [
     { username: 'user2', passwordHash: 'password2' }
 ];
 
-// Simulação de validação de hash de senha (não segura, apenas ilustrativa)
+// Simulação de validação de hash de senha (não segura !!!)
 function validatePassword(inputPassword: string, storedPasswordHash: string): boolean {
     return inputPassword === storedPasswordHash;
 }
@@ -30,8 +30,8 @@ function login(username: string, password: string): string {
 }
 
 // Exemplo de uso
-const usernameInput = 'user1';
-const passwordInput = 'password1';
+const usernameInput = 'user2';
+const passwordInput = 'password2';
 
 const loginMessage = login(usernameInput, passwordInput);
 console.log(loginMessage);

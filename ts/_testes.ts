@@ -1,11 +1,11 @@
 interface User {
     username: string;
-    passwordHash: string;
+    password: string;
 }
 
 const users: User[] = [
-    { username: 'paulo', passwordHash: '2004' },
-    { username: 'user2', passwordHash: 'password2' }
+    { username: 'paulo', password: '2004' },
+    { username: 'user2', password: 'password2' }
 ];
 
 // Simulação de validação de hash de senha (não segura !!!)
@@ -20,7 +20,7 @@ function login(username: string, password: string): string {
         return 'Usuário não encontrado.';
     }
 
-    if (!validatePassword(password, user.passwordHash)) {
+    if (!validatePassword(password, user.password)) {
         return 'Senha incorreta.';
     }
 

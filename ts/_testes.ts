@@ -8,7 +8,7 @@ const users: User[] = [
     { username: 'user2', password: 'password2' }
 ];
 
-// Simulação de validação de hash de senha (não segura !!!)
+
 function validatePassword(inputPassword: string, storedPasswordHash: string): boolean {
     return inputPassword === storedPasswordHash;
 }
@@ -24,12 +24,11 @@ function login(username: string, password: string): string {
         return 'Senha incorreta.';
     }
 
-    // Redireciona para a página index.html após login bem-sucedido
     window.location.href = 'index.html';
     return 'Login bem-sucedido.';
 }
 
-// Exemplo de uso
+
 const usernameInput = 'user2';
 const passwordInput = 'password2';
 
